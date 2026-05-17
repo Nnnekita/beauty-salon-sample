@@ -38,7 +38,6 @@ beauty-salon/
 ├── css/
 │   └── styles.css          # Стили
 ├── js/
-│   ├── calculator.js       # Калькулятор стоимости услуг
 │   └── main.js             # Интерактивность
 ├── icons/                  # SVG-иконки
 │   ├── calendar.svg
