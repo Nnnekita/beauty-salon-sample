@@ -49,7 +49,7 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }, observerOptions);
 
-    document.querySelectorAll('.service-card, .review-card, .contact-card, .gallery-item').forEach(el => {
+    document.querySelectorAll('.service-card, .review-card, .contact-card, .gallery-item, .team-card').forEach(el => {
         el.style.opacity = '0';
         el.style.transform = 'translateY(30px)';
         el.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
@@ -95,12 +95,9 @@ document.addEventListener('DOMContentLoaded', () => {
     if (bookingForm) {
         bookingForm.addEventListener('submit', (e) => {
             e.preventDefault();
-            
             const formData = new FormData(bookingForm);
             const data = Object.fromEntries(formData.entries());
-            
             console.log('Booking submitted:', data);
-            
             modalOverlay.classList.add('active');
             bookingForm.reset();
         });
@@ -133,11 +130,18 @@ document.addEventListener('DOMContentLoaded', () => {
             top: 80px;
             left: 0;
             right: 0;
-            background: #fff;
+            background: #0a0a0a;
             padding: 24px;
-            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
             gap: 16px;
             z-index: 100;
+            border-bottom: 1px solid #2a2a2a;
+        }
+        .nav-links.active a {
+            color: #a0a0a0;
+        }
+        .nav-links.active a:hover {
+            color: #e8a0bf;
         }
         .mobile-menu-btn.active span:nth-child(1) {
             transform: rotate(45deg) translate(5px, 5px);
