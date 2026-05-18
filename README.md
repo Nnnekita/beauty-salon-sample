@@ -1,97 +1,48 @@
-# Belleza — Лендинг салона красоты
+# Beauty Salon — Лендинг салона красоты
 
-Современный адаптивный лендинг для салона красоты премиум класса. Тёмный editorial-дизайн в стиле influence.me. Создан с использованием чистого HTML, CSS и JavaScript без фреймворков.
+[![GitHub Pages](https://img.shields.io/badge/GitHub_Pages-Deployed-32CD32?style=for-the-badge&logo=github)](https://nnnekita.github.io/beauty-salon-sample/)
+[![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)]()
+[![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)]()
+[![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)](LICENSE)
 
-## Демо
+Адаптивный лендинг салона красоты с анимациями и современным дизайном.
 
-🌐 [Посмотреть демо](https://nnnekita.github.io/beauty-salon-sample/)
+## ✨ Возможности
 
-## Скриншоты
+- 📱 Полностью адаптивный дизайн
+- 🎨 Анимации при скролле
+- 💇 Секции услуг и портфолио
+- 📝 Контактная форма
+- ⚡ Быстрая загрузка
 
-### Главная страница
-![Hero секция](screenshots/hero.png)
-
-### Услуги
-![Услуги](screenshots/services.png)
-
-### О салоне
-![О нас](screenshots/about.png)
-
-### Команда мастеров
-![Команда](screenshots/team.png)
-
-### Форма записи
-![Запись](screenshots/booking.png)
-
-## Технологии
+## 🛠 Стек
 
 - **HTML5** — семантическая разметка
-- **CSS3** — Grid, Flexbox, CSS Variables, анимации, адаптивный дизайн
-- **JavaScript** — Intersection Observer, плавный скролл, мобильное меню, маска телефона, валидация форм
-- **SVG-иконки** — кастомные иконки без зависимостей
+- **CSS3** — стилизация, анимации, адаптивная вёрстка
 
-## Структура проекта
-
-```
-beauty-salon/
-├── index.html              # Главная страница
-├── css/
-│   └── styles.css          # Стили
-├── js/
-│   └── main.js             # Интерактивность
-├── icons/                  # SVG-иконки
-│   ├── calendar.svg
-│   ├── check.svg
-│   ├── clock.svg
-│   ├── email.svg
-│   ├── face.svg
-│   ├── hair.svg
-│   ├── instagram.svg
-│   ├── location.svg
-│   ├── makeup.svg
-│   ├── massage.svg
-│   ├── nails.svg
-│   ├── phone.svg
-│   ├── sparkle.svg
-│   ├── star.svg
-│   ├── telegram.svg
-│   ├── waxing.svg
-│   └── whatsapp.svg
-└── screenshots/            # Скриншоты для README
-```
-
-## Секции лендинга
-
-1. **Шапка** — фиксированная навигация с blur-эффектом
-2. **Hero** — полноэкранный блок с фоновым фото и CTA
-3. **Услуги** — 6 карточек с фото: парикмахерские, маникюр, косметология, макияж, массаж, депиляция
-4. **Бегущая строка** — анимированный marquee с ключевыми словами
-5. **О салоне** — информация, фото и статистика
-6. **Портфолио** — галерея работ (4 фото)
-7. **CTA-баннер** — призыв записаться со скидкой
-8. **Команда** — 4 карточки мастеров с фото
-9. **Отзывы** — 3 отзыва с фото клиентов
-10. **Онлайн запись** — форма с выбором услуги, даты, времени
-11. **Контакты** — адрес, телефоны, график, email, соцсети
-12. **Футер** — навигация и контактная информация
-
-## Особенности
-
-- 🖤 Тёмный editorial-дизайн в стиле influence.me
-- 🎨 Палитра: чёрный фон + розовый + зелёный акценты
-- 📱 Полностью адаптивный дизайн
-- 📝 Форма записи с маской телефона и валидацией
-- ✨ Плавные анимации при скролле
-- 🖼️ Фоновые фотографии в каждой секции
-- 🎯 Модальное окно подтверждения записи
-- 🍔 Мобильное меню-бургер
-- 💳 Без регистрации — только заявка
-
-## Запуск
-
-Просто откройте `index.html` в браузере:
+## 🚀 Быстрый старт
 
 ```bash
-# Или запустите локальный сервер
-npx serve .
+# Клонирование репозитория
+git clone https://github.com/Nnnekita/beauty-salon-sample.git
+cd beauty-salon-sample
+
+# Открыть index.html в браузере
 ```
+
+## 🌐 Демо
+
+[Живая демонстрация](https://nnnekita.github.io/beauty-salon-sample/)
+
+## 📝 Лицензия
+
+MIT
+
+## 👤 Автор
+
+**Nnnekita**
+- GitHub: [@Nnnekita](https://github.com/Nnnekita)
+
+---
+
+© 2026 Nnnekita. Создано на HTML и CSS.
